@@ -1,4 +1,4 @@
-# Token Smart Contract README
+# Token Smart Contract 
 
 ## Overview
 
