@@ -1,0 +1,22 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.18;
+
+contract Token {
+    string public tokenTitle = "Mahesh Zabade";
+    string public tokenCode = "MZ";
+    uint public totalAmount = 500;
+    
+    mapping(address => uint) public userBalance;
+    
+    function Mint(address _receiver, uint _value) public {
+        totalAmount += _value;
+        userBalance[_receiver] += _value;
+    }
+    
+    function Burn(address _receiver, uint _value) public {
+        if (userBalance[_receiver] >= _value) {
+            totalAmount -= _value;
+            userBalance[_receiver] -= _value;
+        }
+    }
+}
