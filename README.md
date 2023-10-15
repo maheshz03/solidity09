@@ -61,11 +61,7 @@ contract Token {
     }
 }
 
-
-
-
-
-
+```
 
 
 ## Getting Started
@@ -86,5 +82,5 @@ This project is licensed under the MIT License. See the LICENSE.md file for more
 
 ## Author
 
-- Author: Mahesh Zabade
-- Contact: [Your Email Address]
+- Author: Mahesh
+- Contact: Maheshzabade24@gmail.com
